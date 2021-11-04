@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { BsFillPhoneFill, BsFillChatTextFill } from 'react-icons/bs';
-
+const { REACT_APP_EMAIL_JS } = process.env;
 const Contact = () => {
   const form = useRef();
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -14,7 +14,7 @@ const Contact = () => {
         'service_5ajs7nf',
         'template_z0serpi',
         form.current,
-        'user_AscAlic0Ji5EM5uKgotWn'
+        REACT_APP_EMAIL_JS
       )
       .then(
         (result) => {
