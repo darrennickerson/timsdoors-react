@@ -18,7 +18,6 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setIsSubmitted(true);
         },
         (error) => {
