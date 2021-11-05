@@ -10,7 +10,6 @@ class Work extends React.Component {
     this.state = { photos: [], loading: true };
   }
   componentDidMount() {
-    console.log(process.env);
     axios
       .get(
         `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${REACT_APP_FL_API_KEY}&user_id=155842074%40N08&extras=url_o&format=json&nojsoncallback=1`

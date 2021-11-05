@@ -186,6 +186,23 @@ h3 {
   padding-right: 30px;
   margin-top: 50px;
 }
+.required-text {
+  background: blue;
+
+  display: inline-block;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+i.required {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+.contact-container {
+  transition: max-height 0.5s ease-in-out;
+}
 .smallGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
