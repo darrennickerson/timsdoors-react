@@ -236,6 +236,10 @@ section.service p {
     font-size: 17px;
   }
 }
+#sales {
+  background: #ffff;
+  color: #000;
+}
 @media (max-width: 900px) {
   .smallGrid {
     grid-template-columns: repeat(2, 1fr);

@@ -39,7 +39,6 @@ function App() {
           <Route path="/work">
             <Work photos={photos} loading={loading} />
           </Route>
-
           <Footer />
         </section>
       </BrowserRouter>
