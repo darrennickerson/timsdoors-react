@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
-import emailjs from 'emailjs-com';
-import { BsFillPhoneFill, BsFillChatTextFill } from 'react-icons/bs';
+import React, { useState, useRef, useEffect } from "react";
+import emailjs from "emailjs-com";
+import { BsFillPhoneFill, BsFillChatTextFill } from "react-icons/bs";
 const { REACT_APP_EMAIL_JS } = process.env;
 const Contact = () => {
   const form = useRef();
@@ -18,8 +18,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_5ajs7nf',
-        'template_z0serpi',
+        "service_5ajs7nf",
+        "template_z0serpi",
         form.current,
         REACT_APP_EMAIL_JS
       )
@@ -163,7 +163,7 @@ const Contact = () => {
               </p>
               <p>
                 <BsFillChatTextFill />
-                <a href="timcrabbe123@hotmail.com">timcrabbe123@hotmail.com</a>
+                <a href="timcrabbe@timsdoors.com">timcrabbe@timsdoors.com</a>
               </p>
             </div>
           </div>
